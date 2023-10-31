@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(./img/study-background-11.jpg)no-repeat;
+    background-size: cover;
+}
+.container{
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    opacity: 99%;
+    max-width: 260px;
+    margin: 200px auto 100px;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+header{
+    margin: 10px;
+    background: #FFFFFF;
+}
+.subcontainer{
+    background-color: #fff;
+}
+input{
+    outline: 0;
+    border-radius: 10px;
+    background: #F2F2F2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+.username{
+    background: #FFFFFF;
+}
+.password{
+    background: #FFFFFF;
+}
+/* input:hover{
+    background-color: #6036de;
+    transition: all 1s ease 0s;
+} */
+.login{
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 10px;
+    background: #000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* .login:hover, .login:active, .login:focus{
+    background: #4d1ae5;
+    transition: all 1s ease 0s;
+} */
+.footer p{
+    margin: 15px 0 0;
+    color: #7c7c7c;
+    font-size: 12px;
+    background: #FFFFFF;
+}
+.footer a{
+    text-decoration: none;
+}
+.resp{
+    color: red;
+    font-size: 16x;
+}     

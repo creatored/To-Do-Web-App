@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup-page</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME</h1>
+        <p>Get started by signing up Below</p>
+        <p id="responseMessage" class="resp"></p>
+        <div class="subcontainer">
+            <div class="first_name">
+                <input type="text" placeholder="Firstname" id="first_name" class="fName" required>
+            </div>
+            <div class="last_name">
+                <input type="text" placeholder="Lastname" id="last_name" class="lname" required>
+            </div>
+            <div class="username">
+                <input type="text" placeholder="username" id="username" class="username" required>
+            </div>
+            <div class="phone">
+                <input type="number" placeholder="number" id="phone" class="number" required>
+            </div>
+            <div class="email">
+                <input type="text" placeholder="Email" id="email" class="email" required>
+            </div>
+            <div class="gender">
+               <select id="gender" class="gender">
+                <option value="gender">gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+               </select>
+            </div>
+            <div class="password">
+                <input type="password" placeholder="Password" id="pass" class="pass" required>
+            </div>
+            <div class="footer">
+                <button class="login">Signup</button>
+                <p>Already registered? <a href="./login.html">login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./signup.js"></script>
+</body>
+</html>

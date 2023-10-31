@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../day10/img/study-background-11.jpg)no-repeat;
+    background-size: cover;
+}
+.container{
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    opacity: 99%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+header{
+    margin: 10px;
+    background: #FFFFFF;
+    color: #4d1ae5;
+    
+}
+.subcontainer{
+    background-color: #fff;
+}
+p{
+    color: black;
+}
+input{
+    outline: 0;
+    border-radius: 10px;
+    background: #F2F2F2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: black;
+}
+/* .username{
+    background: #F2F2F2;
+}
+.password{
+    background: #F2F2F2;
+} */
+/* input:hover{
+    background-color: #7e7e7e;
+    transition: all 1s ease 0s;
+} */
+.login{
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 10px;
+    background: black
+    ;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer p{
+    margin: 15px 0 0;
+    color: #7c7c7c;
+    font-size: 12px;
+    background: #FFFFFF;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.resp{
+    color: red;
+}     
+.gender{
+    outline: 0;
+    border-radius: 10px;
+    background: #F2F2F2;
+    width: 100%;
+    border: 0;
+    margin: px ;
+    padding: 5px 15px ;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: black;
+}

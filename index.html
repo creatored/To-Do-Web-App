@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <header>Do-It-Now</header>
+            <div class="nav-right">
+                <a href="./welcome.html">Log-Out</a>
+                <!-- <a href="./index.html">New-Task</a> -->
+            </div>
+        </nav>
+        <h2>Activity List</h2>
+        <hr>
+        <div class="main">
+            <div class="aside_left">
+                <div class="task">
+                    <h3>Add New task</h3>
+                    <hr>
+                    <p id="error"></p>
+                    <div class="inputTitle">
+                        <input type="text" placeholder="Title" class="title" id="title">
+                    </div>
+                    <div class="inputTask">
+                        <div id="inputTask">
+                            <input type="text" placeholder="task" class="inPuttask" id="task">
+                        </div>
+                        <div class="btnfunc">
+                            <button class="addtask" id="addtask">➕</button>
+                            <button class="removeTask" id="removetask">❌</button>
+                        </div>
+                    </div>
+                    <select name="category" id="category" class="category">
+                        <option value="">category</option>
+                        <option value="personal">personal</option>
+                        <option value="public">public</option>
+                        <option value="academic">academic</option>
+                        <option value="Miscellenous">Miscellenous</option>
+                        <option value="Work">Work</option>
+                    </select>
+                    <div class="priority">
+
+                        <select name="priority" id="priority" class="priority">
+                            <option value="">priority</option>
+                            <option value="low">low</option>
+                            <option value="high">high</option>
+
+                        </select>
+                    </div>
+                    <div class="date">
+                        <input type="date" id="date" class="date">
+                    </div>
+                    <button class="create" id="create_item">create task</button>
+                </div>
+            </div>
+            <hr>
+            <div class="aside_right" id="aside_right">
+                <div class="aside_right_content">
+                    
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
